@@ -14,7 +14,7 @@
     "@azure/functions": "^4.0.0",
     "@azure/storage-blob": "^12.27.0",
     "mongoose": "^8.16.1",
-    "puppeteer": "^24.11.2"
+    "pdf-lib": "^1.17.1"
   },
   "devDependencies": {
     "@types/node": "^20.x",
