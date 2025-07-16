@@ -6,7 +6,7 @@ export async function connectToDatabase() {
   if (conn == null) {
     const databaseUrl = process.env.DATABASE_URL;
     if (!databaseUrl) {
-      throw new Error("DATABASE_URL não está definida.");
+      throw new Error("DATABASE_URL is not defined..");
     }
 
     conn = mongoose.createConnection(databaseUrl, {
